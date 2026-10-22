@@ -187,6 +187,9 @@
     .tiles{grid-template-columns:1fr 1fr; gap:18px}
     .page-hero .lower{font-size:2.3rem}
   }
+  .about-grid{display:grid; grid-template-columns:300px 1fr; gap:56px; align-items:start}
+  .about-grid .portrait-wrap{position:sticky; top:96px}
+  @media (max-width:880px){ .about-grid{grid-template-columns:1fr; gap:36px} .about-grid .portrait-wrap{position:relative; max-width:260px} }
   @media (max-width:540px){ .tiles{grid-template-columns:1fr} }
   .flip{transform:scaleX(-1)}
   .next ul{display:none}
