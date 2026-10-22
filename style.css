@@ -197,9 +197,14 @@
     .tiles{grid-template-columns:1fr 1fr; gap:18px}
     .page-hero .lower{font-size:2.3rem}
   }
+  .quals{margin-top:56px}
+  .quals h3, .offclock h3{font-size:1.4rem}
+  .offclock{display:grid; grid-template-columns:300px 1fr; gap:56px; align-items:center; margin-top:64px; padding:40px; background:var(--green-soft); border-radius:22px}
+  .offclock img{width:100%; aspect-ratio:3/4; object-fit:cover; object-position:center 35%; border-radius:16px; display:block}
+  .offclock p:last-child{margin:0}
   .about-grid{display:grid; grid-template-columns:300px 1fr; gap:56px; align-items:start}
   .about-grid .portrait-wrap{position:sticky; top:96px}
-  @media (max-width:880px){ .about-grid{grid-template-columns:1fr; gap:36px} .about-grid .portrait-wrap{position:relative; max-width:260px} }
+  @media (max-width:880px){ .offclock{grid-template-columns:1fr; gap:24px; padding:24px} .offclock img{max-width:300px} .about-grid{grid-template-columns:1fr; gap:36px} .about-grid .portrait-wrap{position:relative; max-width:260px} }
   @media (max-width:540px){ .tiles{grid-template-columns:1fr} }
   .connect .legal a{color:#e6efe8}
   .legal-text{max-width:760px}
