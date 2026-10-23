@@ -241,6 +241,8 @@
   #explore .tile, #explore .tile .cap span{color:#fff}
   #explore .tile p{color:#cfdfd3}
   #explore .tile .cap .ic{color:#f0b48c}
+  #explore .tile .img img{filter:grayscale(1) contrast(1.05); transition:filter .4s ease, transform .45s ease}
+  #explore .tile:hover .img img, #explore .tile:focus-visible .img img{filter:none}
   .b-mission{border-bottom:1px solid var(--line)}
   .connect{border-top:none}
 
