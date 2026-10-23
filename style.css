@@ -218,7 +218,7 @@
   .b-hero p{font-size:1.1rem; max-width:480px; margin:0 0 14px}
   .b-hero .links{margin-top:26px}
   .b-photo{position:relative; margin-top:10px}
-  .b-photo::before{content:""; position:absolute; top:44px; bottom:-44px; left:-28px; right:calc(-1 * max(24px, (100vw - 1040px) / 2 + 24px)); background:var(--accent); z-index:-1}
+  .b-photo::before{content:""; position:absolute; top:44px; bottom:-44px; left:-28px; right:calc(-1 * max(24px, (100vw - 1040px) / 2 + 24px)); background:#b9cdbd; z-index:-1}
   .b-photo img{width:100%; aspect-ratio:4/5; object-fit:cover; display:block}
   .b-photo .hand{position:absolute; right:0; bottom:-92px; color:var(--green); transform:rotate(-3deg)}
   .explore-head{display:flex; align-items:baseline; gap:24px; flex-wrap:wrap; margin-bottom:30px}
