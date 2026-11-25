@@ -268,3 +268,25 @@
   .legal-text ul{padding-left:20px}
   .flip{transform:scaleX(-1)}
   .next ul{display:none}
+
+  /* ---------- Portfolio update (Nov 2026) ---------- */
+  .question{font-family:var(--serif); font-style:italic; font-size:1.3rem; color:var(--green); margin:0 0 30px; max-width:720px}
+  .interests{display:grid; grid-template-columns:repeat(3,1fr); gap:20px}
+  .card.interest{display:flex; flex-direction:column; text-decoration:none; color:var(--ink); transition:border-color .15s, transform .15s}
+  .card.interest:hover{border-color:var(--accent); transform:translateY(-2px); color:var(--ink)}
+  .card.interest p{color:var(--muted); flex:1}
+  .card.interest .more{font-size:.85rem; font-weight:600; color:var(--green); display:inline-flex; gap:8px; align-items:center}
+  .card.interest:hover .more{color:var(--accent)}
+  .card.wide{grid-column:1/-1}
+  .question-sm{font-family:var(--serif); font-style:italic; color:var(--green); font-size:1.08rem}
+  .proj{padding:14px 0 4px; border-top:1px dashed var(--line)}
+  .proj h4{font-family:var(--sans); font-size:1rem; margin:4px 0 6px}
+  .stage{display:inline-block; font-size:.7rem; font-weight:600; text-transform:uppercase; letter-spacing:.07em; padding:2px 9px; border-radius:999px; border:1px solid currentColor}
+  .stage.done{color:var(--green)} .stage.review{color:var(--accent)} .stage.ongoing{color:#56707f} .stage.future{color:#5e7a43; background:#fff}
+  .legend{display:flex; flex-wrap:wrap; gap:8px; margin:0 0 18px}
+  .card .applied{font-size:.9rem; color:var(--muted); margin:14px 0 0; padding-top:12px; border-top:1px dashed var(--line)}
+  .card ul{margin:0; padding-left:18px} .card ul li{margin-bottom:4px}
+  .card ul.tags{padding:0; margin:0}
+  .cv-img svg{width:100%; height:100%; display:block}
+  #explore .tile .cv-img svg{filter:grayscale(1)} #explore .tile:hover .cv-img svg{filter:none}
+  @media (max-width:880px){ .interests{grid-template-columns:1fr} }
